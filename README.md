@@ -3,6 +3,11 @@
 p. 14, Example 1.24 (3). Add the following line before the SageMath commands:  
 `from sage.crypto.boolean_function import BooleanFunction`
 
+p. 15, SageMath code in Example 1.26. Starting from version 9.0, SageMath is running on top of Python 3 and the behavior of print has changed. Basically, you need to add parentheses, and for example write `print(n)` instead of `print n`. This applies to several code examples in this book.  
+`print(binomial(15,n), end=" ")`  
+
+p. 50, First line: addition is done modulo 2<sup>l</sup>.  
+
 p. 145, Beginning of Chapter 7.5. Add:   
 SHA-384 and SHA-512 use an internal state of 512 bits (eight 64-bit words).
 
