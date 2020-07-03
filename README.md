@@ -3,7 +3,7 @@
 p. 14, Example 1.24 (3). Add the following line before the SageMath commands:  
 `from sage.crypto.boolean_function import BooleanFunction`
 
-p. 15, SageMath code in Example 1.26. Starting from version 9.0, SageMath is running on top of Python 3 and the behavior of print has changed. Basically, you need to add parentheses, and for example write `print(n)` instead of `print n`. This applies to several code examples in this book.  
+p. 15, SageMath code in Example 1.26. Starting from version 9.0, SageMath is running on top of Python 3, where the behavior of `print` has changed. Basically, you need to add parentheses, and for example write `print(n)` instead of `print n`. This applies to several code examples in this book.  
 `print(binomial(15,n), end=" ")`  
 
 p. 50, First line: addition is done modulo 2<sup>l</sup>.  
@@ -14,7 +14,9 @@ SHA-384 and SHA-512 use an internal state of 512 bits (eight 64-bit words).
 p. 205, Last bullet of Definition 11.4. Change:   
  <img src="https://render.githubusercontent.com/render/math?math=m\in\mathbb{Z}_{N}^*">
  
-p. 211, Exercise 10. Tasks (a) to (e) refer to the ElGamal signature scheme. 
+p. 211, Exercise 10. Tasks (a) to (e) refer to the ElGamal signature scheme.  
+
+p. 223, Example 12.19. The shared secret key is k=(0,10).
 
 p. 226, End of Example 12.23. Change:  
 The order of the point P over GF(p) is 168=2<sup>3</sup> \*3\*7 , and so (7!)P=O mod p. The order of P over GF(q) is 347, and hence (7!)P≠O mod q. 
